@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  background-color: #fff; 
+    width: 90%;
+    align-content: center;
+    margin: auto;
+    
+}header{
+    background-color: rgb(69,69,69); 
+    color: #fff;
+    text-align: center;
+    
+}
+h1{
+    text-align: left;
+    padding: 20px 20px;
+    width: 300px;
+    display: inline-block;
+    
+}
+nav {
+    background-color: #f2e7e7;
+    display: inline-block;      
+     margin-top: 25px;
+    text-align: center;
+    
+}
+nav ul{
+    list-style:none;/*quita los puntos*/
+}
+
+nav ul li {
+    min-width:75px;
+    height:100%;
+    padding: 20px;
+    float: left;
+    text-align:center;
+}
+a{
+    text-decoration: none;/*quita el subrrayado*/
+}
+nav ul li:hover{
+   background-color: rgba(69,69,69,.6); 
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    
+}
+nav ul li a:hover{
+    color: #fff;
+}
+#banner{
+    background-color: rgb(115,178,175);
+}
+.imgBanner{
+    width: 28%;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    
+    
+}
+.artBanner{
+
+    text-align: center;
+    padding: 20px;
+    width: 70%;    
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+  
+}
+
+.articlePrincipal{
+ display: inline-block;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.imgArticlePrincipal{
+    align-content: center;
+    width: 30%;
+    padding-left: 90px;
+}
+
+footer{
+    background-color: rgb(69,69,69);
+    display: block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+}
