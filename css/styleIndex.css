@@ -7,6 +7,7 @@ body{
     width: 90%;
     align-content: center;
     margin: auto;
+    min-width: 300px;
     
 }header{
     background-color: rgb(69,69,69); 
@@ -17,7 +18,6 @@ body{
 h1{
     text-align: left;
     padding: 20px 20px;
-    width: 300px;
     display: inline-block;
     
 }
@@ -26,6 +26,7 @@ nav {
     display: inline-block;      
      margin-top: 25px;
     text-align: center;
+    margin-bottom: 40px;
     
 }
 nav ul{
@@ -44,7 +45,7 @@ a{
 }
 nav ul li:hover{
    background-color: rgba(69,69,69,.6); 
-    border-radius: 10px 10px 0 0;
+    border-radius: 5px 5px 0 0;
     color: #fff;
     
 }
@@ -74,12 +75,19 @@ nav ul li a:hover{
     box-sizing: border-box;
   
 }
+sectionPrincipal{
+    width: 100%;
+}
 
 .articlePrincipal{
- display: inline-block;
-    width: 30%;
+    vertical-align: top;
+    
+    display: inline-block;
+    width: 32%;
     padding: 20px;
     box-sizing: border-box;
+   
+    
 }
 .imgArticlePrincipal{
     align-content: center;
@@ -95,6 +103,8 @@ footer{
     text-align: center;
     
 }
+
+
 
 
 }
